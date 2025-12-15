@@ -16,8 +16,11 @@ p{
 }
 
 div{background-color:#7DE2D1;
-    width:auto;
+    width:1000px;
     margin: 10px;
-    border:2px solid #7DE2D1;
+    border:2px solid #131515;
+    padding: 10px;
 }
-
+div.card{
+    width:140px;
+}
