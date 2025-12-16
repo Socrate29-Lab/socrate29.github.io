@@ -23,12 +23,16 @@ header {
   background-color: var(--verdigris-background);
 }
 
-div.titre {
+div.entete {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
   gap: 2rem;
+  width: 100%;
+  border: none;
+  border-radius:0px;
+  background-color: var(--verdigris-background);
 }
 
 .nav-links {
@@ -59,8 +63,8 @@ body{
 
 h1{
       color:var(--white-blue-font)
-    
 }
+
 h2{
     color:var(--white-blue-font);
     background-color: var(--verdigris-background);
@@ -71,16 +75,9 @@ div {
     border: 1px solid var(--pearl-aqua-background);
     border-radius: 15px;
     margin-bottom: 15px;
-    width: 66%;
+    width: 60%;
     align-items: center;
-
-}
-
-div.titre {
-    width: 100%;
-    border: none;
-    border-radius:0px;
-    background-color: var(--verdigris-background);
+    padding: 5px;
 }
 
 div.presentation{
@@ -90,4 +87,15 @@ div.presentation{
 div.contact{
     width : 20%;
     margin-top: 165px;
+}
+
+div.hobby{
+    position: fixed;
+    top: 165px;
+    right: 0;
+    width :38%
+}
+
+div.profilepic {
+    text-align: right;
 }
