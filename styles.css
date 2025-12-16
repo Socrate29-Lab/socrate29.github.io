@@ -1,27 +1,69 @@
+:root{
+    /*Background colors*/
+    --onyx-background:#131515;
+    --graphite-background:#353633;
+    --verdigris-background:#339989;
+    --pearl-aqua-background:#7DE2D1;
+    --white-blue-background:#D3F5FF;
+    /*Font colors*/
+    --onyx-font:#131515; 
+    --graphite-font:#2b2c28;
+    --pearl-aqua-font: #7DE2D1;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 3rem;
+  transition: all 0.3s ease;
+  background-color: var(--verdigris-background);
+}
+
+div.titre {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 body{
-    background-color:#D3F5FF;
-    color:#2B2C28
+    background-color: var(--white-blue-background);
+    color:var(--graphite-font);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
-    background-color:#339989;
-    color:#2B2C28
+    color: var(--onyx-font);
+    
 }
 h2{
-    color:#2B2C28;
+    color:var(--onyx-font);
 }
 
-p{
-    color:#131515;
-}
-
-div{background-color:#7DE2D1;
-    width:1000px;
-    margin: 10px;
-    border:1px solid #131515;
-    border-radius: 10px;
-    padding: 10px;
-}
-div.card{
-    width:140px;
+div.presentation{
+    margin-top: 150px;
 }
