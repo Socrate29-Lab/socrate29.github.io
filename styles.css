@@ -99,3 +99,7 @@ div.hobby{
 div.profilepic {
     text-align: right;
 }
+
+.icon{
+    color:var(--white-blue-background);
+}
