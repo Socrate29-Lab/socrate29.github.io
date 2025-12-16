@@ -9,6 +9,7 @@
     --onyx-font:#131515; 
     --graphite-font:#2b2c28;
     --pearl-aqua-font: #7DE2D1;
+    --white-blue-font:#D3F5FF;
 }
 
 header {
@@ -57,13 +58,36 @@ body{
 }
 
 h1{
-    color: var(--onyx-font);
+      color:var(--white-blue-font)
     
 }
 h2{
-    color:var(--onyx-font);
+    color:var(--white-blue-font);
+    background-color: var(--verdigris-background);
+}
+
+div {
+    background-color: var(--pearl-aqua-background);
+    border: 1px solid var(--pearl-aqua-background);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    width: 66%;
+    align-items: center;
+
+}
+
+div.titre {
+    width: 100%;
+    border: none;
+    border-radius:0px;
+    background-color: var(--verdigris-background);
 }
 
 div.presentation{
-    margin-top: 150px;
+    margin-top: 165px;
+}
+
+div.contact{
+    width : 20%;
+    margin-top: 165px;
 }
